@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer ring -->
+    <path
+        android:pathData="M54,27 A27,27 0 1,1 53.99,27"
+        android:strokeWidth="1.5"
+        android:strokeColor="#D4AF37"
+        android:fillColor="#00000000"/>
+
+    <!-- Inner ring -->
+    <path
+        android:pathData="M54,35 A19,19 0 1,1 53.99,35"
+        android:strokeWidth="1"
+        android:strokeColor="#D4AF37"
+        android:fillColor="#00000000"/>
+
+    <!-- Center dot -->
+    <path
+        android:pathData="M54,51 A3,3 0 1,1 53.99,51"
+        android:fillColor="#D4AF37"/>
+
+    <!-- Top petal -->
+    <path
+        android:pathData="M54,27 Q60,40 54,35 Q48,40 54,27"
+        android:strokeWidth="0.8"
+        android:strokeColor="#D4AF37"
+        android:fillColor="#1AD4AF37"/>
+
+    <!-- Bottom petal -->
+    <path
+        android:pathData="M54,81 Q60,68 54,73 Q48,68 54,81"
+        android:strokeWidth="0.8"
+        android:strokeColor="#D4AF37"
+        android:fillColor="#1AD4AF37"/>
+
+    <!-- Left petal -->
+    <path
+        android:pathData="M27,54 Q40,48 35,54 Q40,60 27,54"
+        android:strokeWidth="0.8"
+        android:strokeColor="#D4AF37"
+        android:fillColor="#1AD4AF37"/>
+
+    <!-- Right petal -->
+    <path
+        android:pathData="M81,54 Q68,48 73,54 Q68,60 81,54"
+        android:strokeWidth="0.8"
+        android:strokeColor="#D4AF37"
+        android:fillColor="#1AD4AF37"/>
+</vector>
