@@ -180,7 +180,7 @@ private fun CategoryCard(
     onClick: () -> Unit,
     colors: com.pranaflow.ui.theme.PranaColors
 ) {
-    val isComingSoon = category == TechniqueCategory.MANTRA && techniqueCount == 0
+    val isComingSoon = category == TechniqueCategory.MANTRA
 
     val inf = rememberInfiniteTransition(label = "cat_${category.name}")
     val iconRot by inf.animateFloat(

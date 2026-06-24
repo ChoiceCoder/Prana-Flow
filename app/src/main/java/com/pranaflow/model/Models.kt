@@ -434,8 +434,7 @@ object Techniques {
         ujjayi, slowBreathing,
         anulomVilom,
         allChakras, muladhara, svadhisthana, manipura, anahata, vishuddha, ajna, sahasrara,
-        music174hz, music285hz, music396hz, music417hz, music432hz,
-        music528hz, music639hz, music741hz, music852hz, music963hz
+
     )
 
     val byCategory: List<Pair<TechniqueCategory, List<BreathingTechnique>>>
